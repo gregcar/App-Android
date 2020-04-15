@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("metadata","MANUFACTURER "+manufacturer);
         Log.e("metadata","MODEL "+model);
 
-        AppCenter.start(getApplication(), Constants.AnalyticsSecret, Analytics.class, Crashes.class);
+        AppCenter.start(getApplication(), "04af87d3-dba5-4981-998b-ed3cdf34b142", Analytics.class, Crashes.class);
         Crashes.setEnabled(true);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
