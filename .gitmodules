@@ -1,3 +1,4 @@
 [submodule "app/src/main/proto"]
 	path = app/src/main/proto
-	url = git@github.com:gregcar/proto.git
+	url = https://github.com/gregcar/proto.git
+	#url = git@github.com:gregcar/proto.git
